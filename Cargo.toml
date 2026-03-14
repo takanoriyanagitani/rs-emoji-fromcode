@@ -3,7 +3,16 @@ name = "rs-emoji-fromcode"
 version = "0.1.0"
 edition = "2024"
 
+description = "Converts the emoji codes to emoji chars."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-emoji-fromcode"
+homepage = "https://github.com/takanoriyanagitani/rs-emoji-fromcode"
+documentation = "https://docs.rs/rs-emoji-fromcode/latest"
+keywords = ["emoji", "shortcode", "wasi", "conversion"]
+
 exclude = [
+  "rs-emoji-fromcode.wasm",
+  "opt.wasm",
 ]
 
 [lints.rust]
